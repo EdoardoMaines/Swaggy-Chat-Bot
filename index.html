@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class='spartez-support-chat-container chat-container'></div>
+
+    <script type="text/javascript">
+        var spartezSupportChat = {
+            portal: 6,
+            cloud: {
+                jiraId: '8eaa2d18-b4fe-3e3c-9885-3bab3a3f9f7e',
+                jiraUrl: 'https://swaggy.atlassian.net',
+                urls: {
+                    rest: 'https://chat-api.spartez-software.com',
+                    ws: 'wss://chat-ws.spartez-software.com'
+                },
+            }
+            //meta: [ // optional, custom metadata to store in the issue created from conversation.
+            //    { render: true, name: "Value Name 1", value: val1 }, // "render" values will be displayed in the chat dashboard
+            //    { render: false, name: "Value Name 2", value: val2 },
+            //],
+            // delay: 100, // delay between page load and chat load in milliseconds
+            // container: 'spartez-support-chat-container', // ID of the page element that will be replaced by chat
+            // iconClass: '', // additional class added to the chat icon
+            // chatClass: '', // additional class added to the chat widget
+            // locale: 'en-us' // force a specified locale for displaying texts to the user instead of detecting it from the browser
+        }
+    </script>
+    <script type="text/javascript" src="https://chat-api.spartez-software.com/chat.js"></script>
+</body>
+</html>

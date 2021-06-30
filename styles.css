@@ -1,0 +1,77 @@
+body {
+    background-color: #eee;
+}
+
+.chat-widget, .chat-list{
+    color: #0052cc !important;
+}
+
+.new-conversation, .top-header, .chat-message.my, .send-message, .support-chat-icon{
+    background-color: #0052CC !important;
+}
+
+.chat-conversation.odd:hover{
+    border: 1px solid #0052CC !important;
+}
+
+
+/* .powered-by, .auth-button, .ops .login-options{ */
+
+.powered-by {
+    display: none !important;
+}
+
+.welcome {
+    margin-bottom: 3% !important;
+}
+
+.chat-message{
+    font-size: 1rem !important;
+}
+.support-chat-icon {
+    background-image: url("https://img-premium.flaticon.com/png/512/2950/2950657.png?token=exp=1623160553~hmac=5564604439e2299601c3e941aa09bd33") !important;
+}
+
+.support-chat-icon.open {
+    background-image: url("https://img-premium.flaticon.com/png/512/1828/1828778.png?token=exp=1623158700~hmac=1b8fc7b767d1994abe77f60a190374e7") !important;
+}
+
+.top-header {
+    text-align: center;
+}
+
+.ops {
+    display: none !important;
+    visibility: hidden !important;
+}︁
+
+ .no-conversations-text {
+     visibility: hidden;
+     position: relative;
+ }
+.no-conversations-text:after {
+    visibility: visible;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    content:
+            "Ciao! \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 Sono l'assistente virtuale di Swaggy 'Wally'. Spiegami brevemente il tipo di assistenza di cui hai bisogno. \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 Se il tuo problema non è stato risolto, ti invitiamo a contattare il nostro centro d'assistenza.";
+
+    background-color: white;
+    color: black;
+
+    font-family: 'Ubuntu', sans-serif;
+
+    word-break: break-word;
+
+    font-weight: normal !important;
+}
+.chat-list {
+
+}
+
+.spartez-support-chat-container[data-v-c846ae0e] {
+    max-height: 320px !important;
+}
